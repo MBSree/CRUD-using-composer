@@ -1,0 +1,33 @@
+{
+    "name": "madinenibhavyasree/crud",
+    "autoload": {
+        "psr-4": {
+            "Madinenibhavyasree\\Crud\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "bhavyasreemadineni",
+            "email": "112698923+bhavyasreemadineni@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "7.4.3",
+        "respect/validation": "^2.2",
+        "egulias/email-validator": "^3.2",
+        "illuminate/database": "^8.83"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Madinenibhavyasree\\Crud\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.3"
+        }
+    }
+}
